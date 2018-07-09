@@ -1,0 +1,10 @@
+"0","# BMI values have been missing
+# BMI Index has been grouped based on WHO Statistical categories
+# Missing BMI values are grouped as Unknown
+model2 <- glm(stroke ~ AgeBin + hypertension + heart_disease + 
+                smoking_status + GlucoseLevelBins + BMIBin + work_type +
+                ever_married + residence_type,
+    data = dtTrain, family = binomial(link = ""probit""))
+"
+"2","Error in eval(predvars, data, env) : object 'residence_type' not found
+"

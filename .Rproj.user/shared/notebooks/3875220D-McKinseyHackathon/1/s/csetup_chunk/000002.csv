@@ -1,0 +1,8 @@
+"0","# Remove existing object from the environment"
+"0","rm(list = ls())"
+"0","# changing default chunk options"
+"0","knitr::opts_chunk$set(eval = TRUE, message = FALSE, warning = FALSE)"
+"0","# Loading the required libraries"
+"0","library(data.table)"
+"0","library(ggplot2)"
+"0","library(caret)"
