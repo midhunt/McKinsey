@@ -1,7 +1,0 @@
-"0","# Submission file"
-"0","dtSubmission <- fread("
-"0","  paste0("
-"0","    Sys.getenv(""MyGitRepo""),"
-"0","    ""/McKinsey/Datasets/sample_submission_1.csv"""
-"0","  )"
-"0",")"

@@ -4,5 +4,9 @@
 "0","knitr::opts_chunk$set(eval = TRUE, message = FALSE, warning = FALSE)"
 "0","# Loading the required libraries"
 "0","library(data.table)"
+"2","data.table 1.11.4  Latest news: http://r-datatable.com
+"
 "0","library(ggplot2)"
 "0","library(caret)"
+"2","Loading required package: lattice
+"
